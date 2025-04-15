@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f97a4d;
+    padding: 10px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    background: orange;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .search-section {
+    margin-top: 20px;
+  }
+  
+  .search-section select,
+  .search-section button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    width: 200px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+  }
+  
+  .food-section {
+    display: flex;
+    margin-bottom: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
+  .food-section img {
+    width: 250px;
+    height: auto;
+    margin-right: 15px;
+  }
+  
+  footer {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
